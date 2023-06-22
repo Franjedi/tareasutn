@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <script>
+        const dist = prompt("Ingrese la Distancia:", "");
+
+        if(0 <= dist && dist <= 1000 ){
+            document.write("El medio de transporte apropiado es a Pie")
+        } else if (1000 < dist <= 10000){
+            document.write("El medio de transporte apropiado es en Bicicleta")
+        } else if (10000 < dist <= 30000){
+            document.write("El medio de transporte apropiado es en Colectivo")
+        } else if (30000 < dist <= 100000){
+            document.write("El medio de transporte apropiado es en Auto")
+        } else if (dist > 100000){
+            document.write("El medio de transporte apropiado es en Avion")
+        }
+    </script>
+</body>
+</html>

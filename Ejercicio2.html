@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num
+        let mayor
+        const lista = [1, 15, 91 ,1, 0, 7]
+        for (let i = 0; i <= 5; i++){
+            if (i == 0){
+                num = lista[i]
+            } else{
+                if (num < lista[i]){
+                    mayor = lista[i]
+                    num = lista[i]
+            } else{
+                mayor = num
+            }
+            }
+        }
+        document.write(mayor)
+    </script>
+</body>
+</html>
