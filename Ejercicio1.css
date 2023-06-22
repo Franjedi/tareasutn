@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: row;
+    position: absolute; 
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    height: 98%;
+    background-color: black;
+}
+
+button {
+    margin: 30px;
+    height: 500px;
+    width: 500px;
+    cursor: pointer;
+    border-radius: 5%;
+    border: 1px solid grey;
+
+}
+#rojo {
+    box-shadow: 0 0 40px red;
+    background-color: rgb(224, 58, 58);
+}
+#azul {
+    box-shadow: 0 0 40px rgb(7, 80, 139);
+    background-color: rgb(12, 12, 197);
+}
+#amarillo {
+    box-shadow: 0 0 40px rgb(255, 238, 4);
+    background-color: yellow;
+}

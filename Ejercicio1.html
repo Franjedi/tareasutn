@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" src="Ejercicio1.css" href="Ejercicio1.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <button id="rojo" onclick="CambiarFondo(rojo)"></button>
+    <button id="amarillo" onclick="CambiarFondo(amarillo)"></button>
+    <button id="azul" onclick="CambiarFondo(azul)"></button>
+
+    <script>
+        function CambiarFondo(color) {
+            let body = document.getElementsByTagName('body')[0];
+            
+            if (color == rojo){
+                body.style.backgroundColor = 'red';
+                body.style.transition = "all .5s";
+            } else if (color == azul){
+                body.style.backgroundColor = 'blue';
+                body.style.transition = "all .5s";
+            } else if (color == amarillo){
+                body.style.backgroundColor = 'yellow';
+                body.style.transition = "all .5s";
+            }
+        }
+    </script>
+     
+</body>
+</html>
